@@ -3,6 +3,7 @@ results_kb <- function(class)  {
   this_iids_roh <- dat[class,]
   my_list<-c("mean"=mean(this_iids_roh$KB[this_iids_roh$KB>=1500]),
              "sum"=sum(this_iids_roh$KB[this_iids_roh$KB>=1500]),
+             "sums"=sum(this_iids_roh$KB[this_iids_roh$KB<1500]),
              "length"=length(this_iids_roh$KB[this_iids_roh$KB>=1500]),
              "cl1"=sum(this_iids_roh$KB[this_iids_roh$KB<=500])-sum(this_iids_roh$KB[this_iids_roh$KB<300]),
              "cl2"=sum(this_iids_roh$KB[this_iids_roh$KB<=1000])-sum(this_iids_roh$KB[this_iids_roh$KB<500]),
