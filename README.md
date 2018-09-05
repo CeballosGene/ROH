@@ -20,12 +20,12 @@ Repository for the analysis of Runs of Homozygosity.
     
     cl2= sum of ROH. 500<ROH<1000 Kb
     
-    cl3= sum of. 1000<ROH<2000 Kb
+    cl3= sum of ROH. 1000<ROH<2000 Kb
     
-    cl4= sum of. 2000<ROH<4000 Kb
+    cl4= sum of ROH. 2000<ROH<4000 Kb
     
-    cl5= sum of. 4000<ROH<8000 Kb
+    cl5= sum of ROH. 4000<ROH<8000 Kb
     
-    cl6= sum of. 8000<ROH Kb
+    cl6= sum of ROH. 8000<ROH Kb
       
 
