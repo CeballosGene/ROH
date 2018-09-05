@@ -8,7 +8,7 @@ Repository for the analysis of Runs of Homozygosity.
   
   Variables obtained:
   
-   mean= mean ROH size. ROH>1.5Mb
+   . mean= mean ROH size. ROH>1.5Mb
     
    sum= sum of ROH. ROH>1.5Mb
     
